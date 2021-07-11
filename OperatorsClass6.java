@@ -22,5 +22,65 @@ public class OperatorsClass6 {
            > Logical Operators
            > Bitwise Operators
         */
+        
+        /* Arithmetic Operators
+    
+        Operator     Name            Example          Description
+            +      Addition            x+y          Adds together two values
+            -     Subtraction          x-y          Subtracts one value from another 
+            *     Multiplication       x*y          Muliplies two values
+            /        Division          x/y          Divides one value by another
+            %        Modulus           x%y          Returns the Division remainder
+            ++       Increment       ++x or x++     increases the value of a variable by 1
+            --       Decrement       --x or x--     decreases the value of a variable by 1
+        */
+
+        // Addition
+        int x = 9;
+        int y = 6;
+        System.out.println(x+y);
+
+        // Subtraction
+        System.out.println(x-y);
+
+        // Multiplication
+        System.out.println(x*y);
+
+        // Division
+        System.out.println((float)x/y);
+
+        // Modulus
+        System.out.println(x%y);
+
+        // Increment Operator
+        // We have two types of Increment operators
+        // Pre Increment (++x => First inc the value by 1 and then update or assign the value to a given variable)
+        // Post Increment (x++ => First assign the value and then increase the value by 1)
+
+        int k = 7;
+        System.out.println(++k);
+        System.out.println(k++);
+        System.out.println(k);
+
+        // Decrement 
+        System.out.println(--k);
+        System.out.println(k--);
+        System.out.println(k);
+
+        /* 
+        Assignment Operator (= is the assignment operator)
+        Operator     Example     Same as
+           =          x = 5       x = 5
+          +=          x += 5     x = x + 5
+          -=          x -= 5     x = x - 5
+          *=          x *= 5     x = x * 5
+          /=          x /= 5     x = x / 5
+          %=          x %= 5     x = x % 5 
+          &=          x &= 5     x = x & 5 
+          |=          x |= 5     x = x | 5 
+          ^=          x ^= 5     x = x ^ 5 
+        >>=          x >>= 5     x = x >> 5 
+        <<=          x <<= 5     x = x << 5
+        */
     }
 }
