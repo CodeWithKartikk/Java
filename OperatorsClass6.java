@@ -82,5 +82,70 @@ public class OperatorsClass6 {
         >>=          x >>= 5     x = x >> 5 
         <<=          x <<= 5     x = x << 5
         */
+        
+        int x = 5;
+        System.out.println(x);
+
+        x += 3;
+        System.out.println(x);
+
+        x -= 2;
+        System.out.println(x);
+
+        x *= 5;
+        System.out.println(x);
+
+        x /= 6;
+        System.out.println(x);
+
+        x %= 3;
+        System.out.println(x);
+
+        // JAVA COMPARISON OPERATORS: Comparison operators are used to compare any two values:
+
+        // (==) --> Equal Equal to is checking the two values are equal or not. If equal -> True otherwise false
+        int y = 3;
+        int z = 5;
+        System.out.println(y==z); // y==z present boolean output if its equal then it prints true otherwise false
+
+        // (!=) --> If does not equal then True otherise False
+        int a = 5;
+        int b = 7;
+        System.out.println(a!=b);
+
+        // (>) --> Greater than operator
+        int p = 5;
+        int q = 2;
+        System.out.println(p>q);
+
+        // (<) --> less than operator
+        int r = 5;
+        int s = 2;
+        System.out.println(r<s);
+
+        // (>=) --> Greater than equal to operator
+        int t = 5;
+        int u = 2;
+        System.out.println(t>=u);
+
+        // (<=) --> Less than equal to operator
+        int v = 7;
+        int w = 10;
+        System.out.println(v<=w);
+
+        // JAVA LOGICAL OPERATORS
+
+        // && --> Logical And (Both inputs are true and then it will true otherwise false)
+        int l = 5;
+        System.out.println(l>3 && l<8); 
+
+        // || --> Logical OR (Atleast one input is true then it will true)  
+        int m = 7;
+        System.out.println(m>3 || m<5);
+
+        // //  ! --> Logical Not (Not basically invert the input)
+        int n = 9;
+        System.out.println(!(n>3 && n<8));
+        
     }
 }
