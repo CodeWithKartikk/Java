@@ -1,0 +1,33 @@
+How Java Exactly Works
+
+Source Code or (.java file) 
+=> javac compiler => ByteCode or (.class file)
+=> JVM (Java Virtual machine) 
+=> Output
+
+What Happens at Runtime?
+
+class file
+-> ClassLoader 
+-> ByteCode Verifier
+-> Interpreter 
+-> Runtime
+-> Hardwware
+
+ClassLoader: It is the subsystem of JVM that is used to load the class file .
+
+ByteCode Verifier: It verifies the code blocks for illegal code that can violate access right to objects.
+
+Interpreter: Reads ByteCode and then execute the instructions line by line.
+
+JVM (Java Virtual Machine)
+
+1. JVM stands for Java Virtual Machine is an abstract machine.
+2. It is called a virtual machine bcoz it doesn't physically.
+3. It is the specification that provides a Runtime Environment in which 
+   java bytecode which can be executed.
+4. It can also run those programs which are written in other lanngugaes and 
+   compiled to Java bytecode.
+5. JVMs are available for many hardware and softeare.
+6. JVM, JRE and JDK are platform dependent bcoz the configuration of each OS is 
+   different from each other but Java is a platform independent.
