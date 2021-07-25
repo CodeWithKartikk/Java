@@ -31,3 +31,39 @@ JVM (Java Virtual Machine)
 5. JVMs are available for many hardware and softeare.
 6. JVM, JRE and JDK are platform dependent bcoz the configuration of each OS is 
    different from each other but Java is a platform independent.
+   
+JVM performs the following main tasks are:
+
+> Loads Code
+> Verifies code
+> Executes code
+> Provides Runtime Environment
+
+JRE (Java Runtime Environment)
+
+1. It is also known as Java RTE.
+2. JRE is a collection of softeare tools that we want to create a Java application
+3. It is used to provide the runtime environment 
+4. It is an implementation of JVM.
+5. It physically exists.
+6. It is a set of libraries and other files that JVM uses at runtime.
+
+               JRE
+|----------------------------------|
+|                                  |
+|           | Set of libraries |   |    
+|   JVM                            |    
+|                                  |   
+|             | Other Files |      | 
+|                                  |      
+|----------------------------------|
+
+JDK (Java Development Kit)
+
+1. JDK is a software Development environment whichis used to develop Java applications.
+2. It Contains JRE + Development Tools.
+3. JDK is an implementation of various things:
+   > Standard Edition Java
+   > Enterprise Edition Java
+   > Micro Edition Java
+4. JDK -> JRE + JVM
